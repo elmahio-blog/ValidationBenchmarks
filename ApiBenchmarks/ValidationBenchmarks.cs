@@ -5,19 +5,19 @@ namespace ApiBenchmarks;
 [MemoryDiagnoser]
 public class ValidationBenchmarks
 {
-    private HttpClient _net8 = default!;
-    private HttpClient _net10 = default!;
+    private HttpClient _client8 = default!;
+    private HttpClient _client10 = default!;
     private StringContent _invalidPayload = default!;
 
     [GlobalSetup]
     public void Setup()
     {
-        _net8 = new HttpClient
+        _client8 = new HttpClient
         {
             BaseAddress = new Uri("http://localhost:5008")
         };
 
-        _net10 = new HttpClient
+        _client10 = new HttpClient
         {
             BaseAddress = new Uri("http://localhost:5010")
         };
@@ -40,9 +40,9 @@ public class ValidationBenchmarks
 
     [Benchmark]
     public async Task Net8_Invalid_Model()
-        => await _net8.PostAsync("/devices", _invalidPayload);
+        => await _client8.PostAsync("/devices", _invalidPayload);
 
     [Benchmark]
     public async Task Net10_Invalid_Model()
-        => await _net10.PostAsync("/devices", _invalidPayload);
+        => await _client10.PostAsync("/devices", _invalidPayload);
 }
