@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiBenchmarks", "ApiBenchmarks\ApiBenchmarks.csproj", "{4098725D-210F-4F57-B4AE-6335C1F87643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNet8", "ApiNet8\ApiNet8.csproj", "{4EEFCFCF-E256-4BA3-A323-61A7BDAF9347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiNet10", "ApiNet10\ApiNet10.csproj", "{0D9C64BA-5ED2-4816-AA5E-13829FAF5046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4098725D-210F-4F57-B4AE-6335C1F87643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4098725D-210F-4F57-B4AE-6335C1F87643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4098725D-210F-4F57-B4AE-6335C1F87643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4098725D-210F-4F57-B4AE-6335C1F87643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EEFCFCF-E256-4BA3-A323-61A7BDAF9347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEFCFCF-E256-4BA3-A323-61A7BDAF9347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEFCFCF-E256-4BA3-A323-61A7BDAF9347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEFCFCF-E256-4BA3-A323-61A7BDAF9347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9C64BA-5ED2-4816-AA5E-13829FAF5046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9C64BA-5ED2-4816-AA5E-13829FAF5046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9C64BA-5ED2-4816-AA5E-13829FAF5046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9C64BA-5ED2-4816-AA5E-13829FAF5046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
